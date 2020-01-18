@@ -1,4 +1,4 @@
 def reverse_each_word(array)
-array.collection {= array.reverse} 
+array.each {|array| array.reverse} 
 array
 end
