@@ -1,5 +1,5 @@
 def reverse_each_word(array)
-mak={}
+new=array.split("")
  array.each  {|mak| mak.reverse}
 
 mak
