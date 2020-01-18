@@ -1,6 +1,6 @@
 def reverse_each_word(array)
 bot={}
-bot= array.each  {|array| array.reverse}
+bot= array.each  {|mak| mak.reverse}
 
 bot
 end
