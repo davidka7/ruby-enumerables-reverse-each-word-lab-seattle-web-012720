@@ -1,4 +1,5 @@
 def reverse_each_word(array)
-array.each {|array| array.reverse} 
-array
+bot={}
+bot array.each do {|array| array.reverse} 
+bot
 end
